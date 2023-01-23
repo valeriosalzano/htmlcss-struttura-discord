@@ -13,6 +13,24 @@
 }
 .debug header .bottom .container{
     background-color: blue;
+    border: 2px dashed black;
+}
+.debug main section .big{
+    background-color: lightblue;
+    border: 2px dashed black;
+    height: 500px;
+}
+.debug main section .small{
+    background-color: lightpink;
+    border: 2px dashed black;
+}
+#last-section .sized-container{
+    height: 500px;
+    background-color: green;
+    border: 2px dashed black;
+}
+main section:nth-of-type(2n){
+    background-color: lightgrey;
 }
 /* CSS rules */
 *{
@@ -59,3 +77,15 @@
         width: 50%;
         margin: 50px auto;
     }
+
+/* main */
+main section{
+    padding: 50px;
+}
+main section .big{
+    width: 60%;
+}
+main section .small{
+    width: 40%;
+}
+
