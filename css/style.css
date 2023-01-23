@@ -8,7 +8,12 @@
     background-color: orange;
     border: 2px dashed black;
 }
-
+.debug header .bottom{
+    background-color: yellow;
+}
+.debug header .bottom .container{
+    background-color: blue;
+}
 /* CSS rules */
 *{
     margin: 0;
@@ -47,4 +52,10 @@
         justify-content: flex-end;
         flex-grow: 1;
         padding: 5px 10px;
+    }
+    /* bottom */
+    header .bottom .container{
+        height: 400px;
+        width: 50%;
+        margin: 50px auto;
     }
