@@ -44,7 +44,13 @@ footer .top .small-column{
     background-color: rgb(56, 112, 56);
     border: 2px dashed white;
 }
-
+footer .bottom .sized-container{
+    background-color: lime;
+}
+#footer-logo,#footer-button{
+    background-color: rgb(252, 116, 116);
+    border: 2px dashed black;
+}
 /* CSS rules */
 *{
     margin: 0;
@@ -105,13 +111,29 @@ main section:nth-of-type(2n){
     background-color: lightgrey;
 }
 /* footer */
-footer .top{
-    padding: 10px 0 40px 0;
-    border-bottom: white solid lightgray;
-}
-footer .top .big-column{
-    width: 30%;
-}
-footer .top .small-column{
-    width: calc(70% / 4);
-}
+    /* top */
+    footer .top{
+        padding: 10px 0 40px 0;
+        border-bottom: 1px solid lightgray;
+    }
+    footer .top .big-column{
+        width: 30%;
+    }
+    footer .top .small-column{
+        width: calc(70% / 4);
+    }
+    /* bottom */
+    footer .bottom{
+        padding-top: 30px;
+        border-bottom: 1px solid gray;
+    }
+    footer .bottom .sized-container{
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    #footer-logo{
+        padding:5px;
+    }
+    #footer-button{
+        padding:5px;
+    }
