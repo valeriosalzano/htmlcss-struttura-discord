@@ -1,0 +1,50 @@
+/* debug */
+
+.debug header .top{
+    background-color: red
+}
+
+.debug header .sized-container>*{
+    background-color: orange;
+    border: 2px dashed black;
+}
+
+/* CSS rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+}
+.sized-container{
+    width: 60%;
+    margin: auto;
+}
+/* header */
+    /* top */
+    header .top .sized-container{
+        padding: 20px;
+        align-items: center;
+    }
+    header #logo{
+        justify-content: flex-start;
+        flex-grow: 1;
+        padding: 5px 10px;
+    }
+    header .links{
+        justify-content: center;
+        flex-grow: 4;
+        padding: 5px 10px;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+    }
+    header .login.button{
+        justify-content: flex-end;
+        flex-grow: 1;
+        padding: 5px 10px;
+    }
